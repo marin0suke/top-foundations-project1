@@ -6,14 +6,19 @@ header, footer, .hero{
     display: flex;
     background-color: #1F2937;
     color: #e5e7eb;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
-header {
-    
+header p {
+    margin-right: 10px;
+    margin-left: 50px;
 }
 
 .link {
-    flex: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
 }
 
 .quote {
@@ -21,12 +26,6 @@ header {
     font-style: italic;
     background-color: #E5E7EB;
     font-size: 36px;
-}
-
-p {
-    font-size: 18px;
-    color: #E5E7EB;
-
 }
 
 #logo {
@@ -51,9 +50,9 @@ button {
     border: solid;
     border-color: white;
     color: white;
+    align-content: center;
+    
 }
-
-
 
 .information {
     flex-direction: row;
@@ -66,7 +65,6 @@ button {
 
 
 #thor {
-    font-family: "Robota", sans-serif;
     font-size: 18px;
     font-weight: bold;
     font-style: normal;
